@@ -1,0 +1,98 @@
+@import './variables';
+@import './mixins';
+
+li {
+    list-style: none;
+}
+
+a,
+button {
+    font-family: "Lora", serif;
+}
+
+.primary-btn a {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid $clr-green;
+    background-color: $clr-green;
+    font-weight: 600;
+    color: $clr-white;
+    font-family: 'Playfair Display';
+
+    &:hover {
+        border: 2px solid $clr-mustard;
+        color: $clr-black;
+        background-color: $clr-mustard;
+    }
+
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.60);
+    z-index: 0;
+    height: 450px;
+
+}
+
+.banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.bannertitle {
+    z-index: 1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+    color: $clr-white;
+    font-family: "Lora", serif;
+
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: $clr-white;
+    text-align: center;
+    font-family: "Playfair Display";
+
+    @include mq(md) {
+        font-size: 35px;
+    }
+}
+
+h2 {
+    font-size: 35px;
+    line-height: normal;
+    font-weight: 500;
+    font-family: "Playfair Display";
+    text-align: center;
+    color: $clr-mustard;
+    padding: 30px 0;
+
+    @include mq(md) {
+        font-size: 25px;
+    }
+}
+
+h3 {
+    font-size: 28px;
+    line-height: normal;
+    font-weight: 500;
+    color: $clr-green;
+    font-family: "Playfair Display";
+}
