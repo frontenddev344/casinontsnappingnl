@@ -198,6 +198,23 @@
     .casinohotel-content {
         margin-left: 0;
     }
+
+    .facilities-content {
+        flex-direction: column;
+    }
+
+    .facilities-picture {
+        width: 100%;
+
+        img {
+            height: 250px;
+            object-fit: cover;
+        }
+    }
+
+    .facilities-text {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:575px) {

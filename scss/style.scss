@@ -586,4 +586,52 @@ a.btn.btn-primary.accept-cookies {
 }
 
 /*bestroom-css-end*/
+
+/*facilities-css-start*/
+.facilitieshotel.banner {
+    background-image: url(../images/facilitiesbanner.jpeg);
+    position: relative;
+}
+
+.facilities {
+    &-content {
+        display: flex;
+        gap: 10px;
+
+        p {
+            color: $clr-black;
+        }
+    }
+
+    &-picture {
+        width: 30%;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+    }
+
+    &-gap {
+        background: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+}
+
+.facilities-main .row.py-5 p {
+    color: $clr-black;
+}
+
+/*facilities-css-end*/
+
+
 /*# sourceMappingURL=style.css.map */

@@ -48,14 +48,6 @@ button {
   top: 50%;
 }
 
-p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
-  color: #fff;
-  font-family: "Lora", serif;
-}
-
 h1 {
   font-size: 50px;
   font-weight: 500;
@@ -95,6 +87,27 @@ h3 {
   h3 {
     font-size: 22px;
   }
+}
+
+h4 {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 500;
+  color: #AB6034;
+  font-family: "Playfair Display";
+}
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 22px;
+  }
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  font-family: "Lora", serif;
 }
 
 * {
@@ -598,6 +611,44 @@ a.btn.btn-primary.accept-cookies:hover {
 }
 
 /*bestroom-css-end*/
+/*facilities-css-start*/
+.facilitieshotel.banner {
+  background-image: url(../images/facilitiesbanner.jpeg);
+  position: relative;
+}
+
+.facilities-content {
+  display: flex;
+  gap: 10px;
+}
+.facilities-content p {
+  color: #000;
+}
+.facilities-picture {
+  width: 30%;
+}
+.facilities-picture img {
+  width: 100%;
+  border-radius: 10px;
+}
+.facilities-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+.facilities-gap {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.facilities-main .row.py-5 p {
+  color: #000;
+}
+
+/*facilities-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */

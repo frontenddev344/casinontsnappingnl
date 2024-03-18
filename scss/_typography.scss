@@ -53,15 +53,6 @@ button {
     top: 50%;
 }
 
-p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: normal;
-    color: $clr-white;
-    font-family: "Lora", serif;
-
-}
-
 
 h1 {
     font-size: 50px;
@@ -99,4 +90,25 @@ h3 {
     @include mq(md) {
         font-size: 22px;
     }
+}
+
+h4 {
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 500;
+    color: $clr-mustard;
+    font-family: "Playfair Display";
+
+    @include mq(md) {
+        font-size: 22px;
+    }
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: $clr-white;
+    font-family: "Lora", serif;
+
 }
