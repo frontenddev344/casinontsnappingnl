@@ -147,7 +147,7 @@ nav.site-nav {
     &::after {
         position: absolute;
         inset: 0;
-        background: rgb(0 0 0 / 83%);
+        background: rgb(0 0 0 / 92%);
         content: '';
         z-index: -1;
     }
@@ -268,6 +268,99 @@ a.btn.btn-primary.accept-cookies {
     }
 }
 
+.contact {
+    &text {
+        h2 {
+            text-align: left;
+            color: $clr-mustard;
+            padding: 0 !important;
+
+        }
+
+        p {
+            color: $clr-black;
+        }
+    }
+
+    &flex {
+        padding: 25px 0;
+        display: flex;
+        gap: 25px;
+        align-items: flex-start;
+
+        img {
+            max-width: 50px;
+            height: 50px;
+            object-fit: cover;
+        }
+    }
+}
+
+.about_us_content {
+    background: $clr-creme;
+    padding: 0 20px;
+}
+
+.about_us_content .form-group {
+    margin-bottom: 6px;
+}
+
+.about_us_content h2 {
+    color: $clr-mustard;
+    padding-bottom: 0;
+}
+
+.about_us_content .input-control {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    border: 1px solid $clr-white;
+    padding: 2rem 2rem;
+    background: white;
+    color: $clr-black;
+}
+
+.about_us_content .input-control:focus-visible {
+    outline: none;
+}
+
+.about_us_content textarea.input-control {
+    resize: none;
+    height: auto;
+}
+
+.about_us_content .form-group .submit-btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid $clr-mustard;
+    background-color: $clr-mustard;
+    font-weight: 600;
+    color: $clr-white;
+    margin: 20px 0;
+    font-family: "Playfair Display";
+
+    &:hover {
+        background-color: transparent;
+        color: $clr-black;
+    }
+}
+
+.about_us_content .form-group label {
+    display: inline-block;
+    padding-bottom: 5px;
+    color: $clr-black;
+    transition: all 0.2s linear;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: 'Lora';
+
+}
+
+.contactmain {
+    padding: 50px 0;
+}
+
 /*cookie end*/
 
 /*privacy-policy start*/
@@ -360,6 +453,14 @@ a.btn.btn-primary.accept-cookies {
 }
 
 /*privacy-policy end*/
+
+/*contact-css-start*/
+.contactbanner.banner {
+    background-image: url(../images/contactbanner.webp);
+    position: relative;
+}
+
+/*contact-css-end*/
 
 /*terms-conditon start*/
 .terms__section.banner {

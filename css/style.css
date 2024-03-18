@@ -227,7 +227,7 @@ nav.site-nav {
 .footer::after {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.83);
+  background: rgba(0, 0, 0, 0.92);
   content: "";
   z-index: -1;
 }
@@ -324,6 +324,89 @@ a.btn.btn-primary.accept-cookies:hover {
   color: #000;
 }
 
+.contacttext h2 {
+  text-align: left;
+  color: #AB6034;
+  padding: 0 !important;
+}
+.contacttext p {
+  color: #000;
+}
+.contactflex {
+  padding: 25px 0;
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+.contactflex img {
+  max-width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.about_us_content {
+  background: #f4f2f1;
+  padding: 0 20px;
+}
+
+.about_us_content .form-group {
+  margin-bottom: 6px;
+}
+
+.about_us_content h2 {
+  color: #AB6034;
+  padding-bottom: 0;
+}
+
+.about_us_content .input-control {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  border: 1px solid #fff;
+  padding: 2rem 2rem;
+  background: white;
+  color: #000;
+}
+
+.about_us_content .input-control:focus-visible {
+  outline: none;
+}
+
+.about_us_content textarea.input-control {
+  resize: none;
+  height: auto;
+}
+
+.about_us_content .form-group .submit-btn {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px 25px;
+  border: 2px solid #AB6034;
+  background-color: #AB6034;
+  font-weight: 600;
+  color: #fff;
+  margin: 20px 0;
+  font-family: "Playfair Display";
+}
+.about_us_content .form-group .submit-btn:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+.about_us_content .form-group label {
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #000;
+  transition: all 0.2s linear;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: "Lora";
+}
+
+.contactmain {
+  padding: 50px 0;
+}
+
 /*cookie end*/
 /*privacy-policy start*/
 .privacy__section.banner {
@@ -401,6 +484,13 @@ a.btn.btn-primary.accept-cookies:hover {
 }
 
 /*privacy-policy end*/
+/*contact-css-start*/
+.contactbanner.banner {
+  background-image: url(../images/contactbanner.webp);
+  position: relative;
+}
+
+/*contact-css-end*/
 /*terms-conditon start*/
 .terms__section.banner {
   background-image: url(../images/termsbanner.webp);
