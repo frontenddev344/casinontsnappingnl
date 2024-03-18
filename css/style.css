@@ -85,11 +85,16 @@ h2 {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 26px;
   line-height: normal;
   font-weight: 500;
   color: #AB6034;
   font-family: "Playfair Display";
+}
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 22px;
+  }
 }
 
 * {
@@ -101,7 +106,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-size: 1.6rem;
-  font-family: "Roboto Slab", serif;
+  background: #f4f2f1;
 }
 
 ul {
@@ -227,7 +232,7 @@ nav.site-nav {
 .footer::after {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.92);
+  background: rgba(0, 0, 0, 0.84);
   content: "";
   z-index: -1;
 }
@@ -526,7 +531,7 @@ a.btn.btn-primary.accept-cookies:hover {
   padding-bottom: 50px;
 }
 .homecard-card {
-  background: #f4f2f1;
+  background: #fff;
   padding: 20px;
   height: 100%;
 }
@@ -545,6 +550,54 @@ a.btn.btn-primary.accept-cookies:hover {
 }
 
 /*homebanner-css-end*/
+/*casinohotel-css-start*/
+.casinohotel.banner {
+  background-image: url(../images/casinohotel-banner.jpg);
+  position: relative;
+}
+
+.toptext {
+  padding: 50px 0;
+}
+.toptext p {
+  color: #000;
+}
+
+.casinohotel-inner p {
+  color: #000;
+}
+.casinohotel-card img {
+  height: 520px;
+  object-fit: cover;
+}
+.casinohotel-inner {
+  box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.07);
+  background: #fff;
+  padding: 20px;
+}
+.casinohotel-inner:hover {
+  background: #f4f2f1;
+}
+.casinohotel-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -82px;
+}
+
+.casinohotelgap {
+  margin-bottom: 25px;
+}
+
+/*casinohotel-css-end*/
+/*bestroom-css-start*/
+.besthotel.banner {
+  background-image: url(../images/bestroom-banner.webp);
+  position: relative;
+}
+
+/*bestroom-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */

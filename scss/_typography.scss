@@ -90,9 +90,13 @@ h2 {
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 26px;
     line-height: normal;
     font-weight: 500;
     color: $clr-mustard;
     font-family: "Playfair Display";
+
+    @include mq(md) {
+        font-size: 22px;
+    }
 }
