@@ -12,16 +12,16 @@ button {
   border-radius: 3px;
   display: inline-block;
   padding: 10px 25px;
-  border: 2px solid #389844;
-  background-color: #389844;
+  border: 2px solid #AB6034;
+  background-color: #AB6034;
   font-weight: 600;
   color: #fff;
   font-family: "Playfair Display";
 }
 .primary-btn a:hover {
-  border: 2px solid #f2c981;
+  border: 2px solid #AB6034;
   color: #000;
-  background-color: #f2c981;
+  background-color: transparent;
 }
 
 .banner::after {
@@ -49,7 +49,7 @@ button {
 }
 
 p {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   line-height: normal;
   color: #fff;
@@ -75,7 +75,7 @@ h2 {
   font-weight: 500;
   font-family: "Playfair Display";
   text-align: center;
-  color: #f2c981;
+  color: #000;
   padding: 30px 0;
 }
 @media screen and (max-width: 768px) {
@@ -88,7 +88,7 @@ h3 {
   font-size: 28px;
   line-height: normal;
   font-weight: 500;
-  color: #389844;
+  color: #AB6034;
   font-family: "Playfair Display";
 }
 
@@ -160,7 +160,7 @@ header.site-header.sticky {
 }
 
 .site-header .site-nav ul li a.active {
-  color: #389844;
+  color: #AB6034;
 }
 
 .site-logo img {
@@ -175,7 +175,7 @@ header.site-header.sticky {
   color: #fff;
 }
 .site-nav a:hover {
-  color: #389844;
+  color: #AB6034;
 }
 
 .site-header {
@@ -227,7 +227,7 @@ nav.site-nav {
 .footer::after {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.74);
+  background: rgba(0, 0, 0, 0.83);
   content: "";
   z-index: -1;
 }
@@ -235,7 +235,7 @@ nav.site-nav {
   max-width: 300px;
 }
 .footer-links h3 {
-  color: #f2c981;
+  color: #AB6034;
   font-size: 25px;
 }
 .footer-links li {
@@ -245,14 +245,14 @@ nav.site-nav {
   color: #fff;
 }
 .footer-links a:hover {
-  color: #f2c981;
+  color: #AB6034;
 }
 .footer-adresse h3 {
-  color: #f2c981;
+  color: #AB6034;
   font-size: 25px;
 }
 .footer-adresse p {
-  color: #f2c981;
+  color: #AB6034;
 }
 .footer-mails a,
 .footer-mails i {
@@ -260,7 +260,7 @@ nav.site-nav {
 }
 .footer-mails a:hover,
 .footer-mails i:hover {
-  color: #f2c981;
+  color: #AB6034;
 }
 
 .social-signals {
@@ -281,7 +281,7 @@ nav.site-nav {
 }
 .social-signals i:hover {
   transform: translateY(-10px);
-  color: #f2c981;
+  color: #AB6034;
 }
 
 /*footer-css-end*/
@@ -314,13 +314,13 @@ nav.site-nav {
 a.btn.btn-primary.accept-cookies {
   padding: 6px 22px;
   font-size: 20px;
-  border: 2px solid #389844;
-  background-color: #389844;
+  border: 2px solid #AB6034;
+  background-color: #AB6034;
   font-family: "Playfair Display";
 }
 a.btn.btn-primary.accept-cookies:hover {
-  background-color: #f2c981;
-  border: 2px solid #f2c981;
+  background-color: transparent;
+  border: 2px solid #AB6034;
   color: #000;
 }
 
@@ -358,14 +358,14 @@ a.btn.btn-primary.accept-cookies:hover {
   content: "";
   position: absolute;
   height: 5px;
-  background: #389844;
+  background: #AB6034;
   width: 5px;
   border-radius: 30px;
   left: -10px;
   top: 8px;
 }
 .privacy-policy .content-wrap h3 {
-  color: #389844;
+  color: #AB6034;
 }
 .privacy-policy .content-wrap p {
   color: #000;
@@ -385,7 +385,7 @@ a.btn.btn-primary.accept-cookies:hover {
   content: "";
   position: absolute;
   height: 5px;
-  background: #389844;
+  background: #AB6034;
   width: 5px;
   border-radius: 30px;
   left: -10px;
@@ -397,7 +397,7 @@ a.btn.btn-primary.accept-cookies:hover {
   line-height: 25px;
 }
 .terms .content-wrap h3 {
-  color: #389844;
+  color: #AB6034;
 }
 
 /*privacy-policy end*/
@@ -432,23 +432,11 @@ a.btn.btn-primary.accept-cookies:hover {
   height: 550px;
 }
 
-.shape-bottom {
-  background-image: url(../images/shape-bottom.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 60px;
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  bottom: 50px;
-}
-
 .homecard {
   padding-bottom: 50px;
 }
 .homecard-card {
-  box-shadow: inset 0 0 6px #389844;
+  background: #f4f2f1;
   padding: 20px;
   height: 100%;
 }
@@ -457,6 +445,10 @@ a.btn.btn-primary.accept-cookies:hover {
 }
 .homecard-inner {
   height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  display: flex;
 }
 .homecard-inner p {
   color: #000;

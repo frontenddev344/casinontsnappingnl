@@ -14,8 +14,8 @@ button {
     border-radius: 3px;
     display: inline-block;
     padding: 10px 25px;
-    border: 2px solid $clr-green;
-    background-color: $clr-green;
+    border: 2px solid $clr-mustard;
+    background-color: $clr-mustard;
     font-weight: 600;
     color: $clr-white;
     font-family: 'Playfair Display';
@@ -23,7 +23,7 @@ button {
     &:hover {
         border: 2px solid $clr-mustard;
         color: $clr-black;
-        background-color: $clr-mustard;
+        background-color: transparent;
     }
 
 }
@@ -54,7 +54,7 @@ button {
 }
 
 p {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
     line-height: normal;
     color: $clr-white;
@@ -81,7 +81,7 @@ h2 {
     font-weight: 500;
     font-family: "Playfair Display";
     text-align: center;
-    color: $clr-mustard;
+    color: $clr-black;
     padding: 30px 0;
 
     @include mq(md) {
@@ -93,6 +93,6 @@ h3 {
     font-size: 28px;
     line-height: normal;
     font-weight: 500;
-    color: $clr-green;
+    color: $clr-mustard;
     font-family: "Playfair Display";
 }
