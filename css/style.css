@@ -540,7 +540,7 @@ a.btn.btn-primary.accept-cookies:hover {
 }
 
 .homecard {
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 .homecard-card {
   background: #fff;
@@ -652,6 +652,18 @@ a.btn.btn-primary.accept-cookies:hover {
 
 .facilities-main .row.py-5 p {
   color: #000;
+}
+
+.primary-btn.top {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.primary-btn.top a {
+  padding: 12px 42px;
+}
+.primary-btn.top a:hover {
+  color: #fff;
 }
 
 /*facilities-css-end*/

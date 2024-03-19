@@ -495,7 +495,7 @@ a.btn.btn-primary.accept-cookies {
 }
 
 .homecard {
-    padding-bottom: 50px;
+    padding: 50px 0;
 
     &-card {
         background: $clr-white;
@@ -637,6 +637,21 @@ a.btn.btn-primary.accept-cookies {
 
 .facilities-main .row.py-5 p {
     color: $clr-black;
+}
+
+.primary-btn.top {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    a {
+        padding: 12px 42px;
+
+        &:hover {
+            color: $clr-white;
+        }
+    }
+
 }
 
 /*facilities-css-end*/
