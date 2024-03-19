@@ -12,14 +12,14 @@ button {
   border-radius: 3px;
   display: inline-block;
   padding: 10px 25px;
-  border: 2px solid #ECB159;
-  background-color: #ECB159;
+  border: 2px solid #8CB9BD;
+  background-color: #8CB9BD;
   font-weight: 600;
   color: #fff;
   font-family: "Playfair Display";
 }
 .primary-btn a:hover {
-  border: 2px solid #ECB159;
+  border: 2px solid #8CB9BD;
   color: #000;
   background-color: transparent;
 }
@@ -80,7 +80,7 @@ h3 {
   font-size: 26px;
   line-height: normal;
   font-weight: 500;
-  color: #ECB159;
+  color: #8CB9BD;
   font-family: "Playfair Display";
 }
 @media screen and (max-width: 768px) {
@@ -93,7 +93,7 @@ h4 {
   font-size: 24px;
   line-height: normal;
   font-weight: 500;
-  color: #ECB159;
+  color: #8CB9BD;
   font-family: "Playfair Display";
 }
 @media screen and (max-width: 768px) {
@@ -154,7 +154,7 @@ html {
 /*global end*/
 /*header start*/
 header.site-header {
-  background: #000;
+  background: transparent;
   font-size: 18px;
   padding: 14px 0;
   font-weight: 700;
@@ -170,15 +170,14 @@ header.site-header {
 }
 
 header.site-header.sticky {
-  background: #000;
-  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  background: black;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding: 10px 0;
   position: fixed;
 }
 
 .site-header .site-nav ul li a.active {
-  color: #ECB159;
+  color: #8CB9BD;
 }
 
 .site-logo img {
@@ -193,7 +192,7 @@ header.site-header.sticky {
   color: #fff;
 }
 .site-nav a:hover {
-  color: #ECB159;
+  color: #8CB9BD;
 }
 
 .site-header {
@@ -253,7 +252,7 @@ nav.site-nav {
   max-width: 300px;
 }
 .footer-links h3 {
-  color: #ECB159;
+  color: #8CB9BD;
   font-size: 25px;
 }
 .footer-links li {
@@ -266,11 +265,11 @@ nav.site-nav {
   color: #8CB9BD;
 }
 .footer-adresse h3 {
-  color: #ECB159;
+  color: #8CB9BD;
   font-size: 25px;
 }
 .footer-adresse p {
-  color: #ECB159;
+  color: #8CB9BD;
 }
 .footer-mails a,
 .footer-mails i {
@@ -332,19 +331,19 @@ nav.site-nav {
 a.btn.btn-primary.accept-cookies {
   padding: 6px 22px;
   font-size: 20px;
-  border: 2px solid #ECB159;
-  background-color: #ECB159;
+  border: 2px solid #8CB9BD;
+  background-color: #8CB9BD;
   font-family: "Playfair Display";
 }
 a.btn.btn-primary.accept-cookies:hover {
   background-color: transparent;
-  border: 2px solid #ECB159;
+  border: 2px solid #8CB9BD;
   color: #000;
 }
 
 .contacttext h2 {
   text-align: left;
-  color: #ECB159;
+  color: #8CB9BD;
   padding: 0 !important;
 }
 .contacttext p {
@@ -372,7 +371,7 @@ a.btn.btn-primary.accept-cookies:hover {
 }
 
 .about_us_content h2 {
-  color: #ECB159;
+  color: #8CB9BD;
   padding-bottom: 0;
 }
 
@@ -399,8 +398,8 @@ a.btn.btn-primary.accept-cookies:hover {
   border-radius: 3px;
   display: inline-block;
   padding: 10px 25px;
-  border: 2px solid #ECB159;
-  background-color: #ECB159;
+  border: 2px solid #8CB9BD;
+  background-color: #8CB9BD;
   font-weight: 600;
   color: #fff;
   margin: 20px 0;
@@ -459,14 +458,14 @@ a.btn.btn-primary.accept-cookies:hover {
   content: "";
   position: absolute;
   height: 5px;
-  background: #ECB159;
+  background: #8CB9BD;
   width: 5px;
   border-radius: 30px;
   left: -10px;
   top: 8px;
 }
 .privacy-policy .content-wrap h3 {
-  color: #ECB159;
+  color: #8CB9BD;
 }
 .privacy-policy .content-wrap p {
   color: #000;
@@ -486,7 +485,7 @@ a.btn.btn-primary.accept-cookies:hover {
   content: "";
   position: absolute;
   height: 5px;
-  background: #ECB159;
+  background: #8CB9BD;
   width: 5px;
   border-radius: 30px;
   left: -10px;
@@ -498,7 +497,7 @@ a.btn.btn-primary.accept-cookies:hover {
   line-height: 25px;
 }
 .terms .content-wrap h3 {
-  color: #ECB159;
+  color: #8CB9BD;
 }
 
 /*privacy-policy end*/

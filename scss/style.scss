@@ -49,7 +49,7 @@ html {
 
 /*header start*/
 header.site-header {
-    background: $clr-black;
+    background: transparent;
     font-size: 18px;
     padding: 14px 0;
     font-weight: 700;
@@ -65,15 +65,14 @@ header.site-header {
 }
 
 header.site-header.sticky {
-    background: $clr-black;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    background: black;
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     padding: 10px 0;
     position: fixed;
 }
 
 .site-header .site-nav ul li a.active {
-    color: $clr-mustard;
+    color: $clr-green;
 }
 
 .site-logo img {
@@ -88,7 +87,7 @@ header.site-header.sticky {
     color: $clr-white;
 
     &:hover {
-        color: $clr-mustard;
+        color: $clr-green;
     }
 }
 
@@ -160,7 +159,7 @@ nav.site-nav {
 
     &-links {
         h3 {
-            color: $clr-mustard;
+            color: $clr-green;
             font-size: 25px;
         }
 
@@ -180,12 +179,12 @@ nav.site-nav {
     &-adresse {
 
         h3 {
-            color: $clr-mustard;
+            color: $clr-green;
             font-size: 25px;
         }
 
         p {
-            color: $clr-mustard;
+            color: $clr-green;
         }
     }
 
@@ -257,13 +256,13 @@ nav.site-nav {
 a.btn.btn-primary.accept-cookies {
     padding: 6px 22px;
     font-size: 20px;
-    border: 2px solid $clr-mustard;
-    background-color: $clr-mustard;
+    border: 2px solid $clr-green;
+    background-color: $clr-green;
     font-family: 'Playfair Display';
 
     &:hover {
         background-color: transparent;
-        border: 2px solid $clr-mustard;
+        border: 2px solid $clr-green;
         color: $clr-black;
     }
 }
@@ -272,7 +271,7 @@ a.btn.btn-primary.accept-cookies {
     &text {
         h2 {
             text-align: left;
-            color: $clr-mustard;
+            color: $clr-green;
             padding: 0 !important;
 
         }
@@ -306,7 +305,7 @@ a.btn.btn-primary.accept-cookies {
 }
 
 .about_us_content h2 {
-    color: $clr-mustard;
+    color: $clr-green;
     padding-bottom: 0;
 }
 
@@ -333,8 +332,8 @@ a.btn.btn-primary.accept-cookies {
     border-radius: 3px;
     display: inline-block;
     padding: 10px 25px;
-    border: 2px solid $clr-mustard;
-    background-color: $clr-mustard;
+    border: 2px solid $clr-green;
+    background-color: $clr-green;
     font-weight: 600;
     color: $clr-white;
     margin: 20px 0;
@@ -398,7 +397,7 @@ a.btn.btn-primary.accept-cookies {
                 content: "";
                 position: absolute;
                 height: 5px;
-                background: $clr-mustard;
+                background: $clr-green;
                 width: 5px;
                 border-radius: 30px;
                 left: -10px;
@@ -408,7 +407,7 @@ a.btn.btn-primary.accept-cookies {
 
 
         h3 {
-            color: $clr-mustard;
+            color: $clr-green;
         }
 
         p {
@@ -432,7 +431,7 @@ a.btn.btn-primary.accept-cookies {
                 content: "";
                 position: absolute;
                 height: 5px;
-                background: $clr-mustard;
+                background: $clr-green;
                 width: 5px;
                 border-radius: 30px;
                 left: -10px;
@@ -447,7 +446,7 @@ a.btn.btn-primary.accept-cookies {
         }
 
         h3 {
-            color: $clr-mustard;
+            color: $clr-green;
         }
     }
 }

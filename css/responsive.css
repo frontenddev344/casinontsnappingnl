@@ -11,14 +11,14 @@ button {
   border-radius: 3px;
   display: inline-block;
   padding: 10px 25px;
-  border: 2px solid #ECB159;
-  background-color: #ECB159;
+  border: 2px solid #8CB9BD;
+  background-color: #8CB9BD;
   font-weight: 600;
   color: #fff;
   font-family: "Playfair Display";
 }
 .primary-btn a:hover {
-  border: 2px solid #ECB159;
+  border: 2px solid #8CB9BD;
   color: #000;
   background-color: transparent;
 }
@@ -79,7 +79,7 @@ h3 {
   font-size: 26px;
   line-height: normal;
   font-weight: 500;
-  color: #ECB159;
+  color: #8CB9BD;
   font-family: "Playfair Display";
 }
 @media screen and (max-width: 768px) {
@@ -92,7 +92,7 @@ h4 {
   font-size: 24px;
   line-height: normal;
   font-weight: 500;
-  color: #ECB159;
+  color: #8CB9BD;
   font-family: "Playfair Display";
 }
 @media screen and (max-width: 768px) {
