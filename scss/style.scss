@@ -306,7 +306,7 @@ a.btn.btn-primary.accept-cookies {
 
 .about_us_content h2 {
     color: $clr-green;
-    padding-bottom: 0;
+    padding: 0;
 }
 
 .about_us_content .input-control {
@@ -485,7 +485,7 @@ a.btn.btn-primary.accept-cookies {
 
 /*homebanner-css-start*/
 .homebanner.banner {
-    background-image: url(../images/homebanner.jpeg);
+    background-image: url(../images/homebanner.jpg);
     height: 550px;
     position: relative;
 
@@ -513,6 +513,15 @@ a.btn.btn-primary.accept-cookies {
         justify-content: space-between;
         height: 100%;
         display: flex;
+        overflow: hidden;
+
+        img {
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
 
         p {
             color: $clr-black;
@@ -580,7 +589,7 @@ a.btn.btn-primary.accept-cookies {
 
 /*bestroom-css-start*/
 .besthotel.banner {
-    background-image: url(../images/bestroom-banner.webp);
+    background-image: url(../images/bestroom-banner.jpg);
     position: relative;
 }
 
@@ -588,7 +597,7 @@ a.btn.btn-primary.accept-cookies {
 
 /*facilities-css-start*/
 .facilitieshotel.banner {
-    background-image: url(../images/facilitiesbanner.jpeg);
+    background-image: url(../images/facilitiesbanner.jpg);
     position: relative;
 }
 

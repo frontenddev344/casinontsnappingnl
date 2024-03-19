@@ -372,7 +372,7 @@ a.btn.btn-primary.accept-cookies:hover {
 
 .about_us_content h2 {
   color: #8CB9BD;
-  padding-bottom: 0;
+  padding: 0;
 }
 
 .about_us_content .input-control {
@@ -531,7 +531,7 @@ a.btn.btn-primary.accept-cookies:hover {
 
 /*homebanner-css-start*/
 .homebanner.banner {
-  background-image: url(../images/homebanner.jpeg);
+  background-image: url(../images/homebanner.jpg);
   height: 550px;
   position: relative;
 }
@@ -556,6 +556,13 @@ a.btn.btn-primary.accept-cookies:hover {
   justify-content: space-between;
   height: 100%;
   display: flex;
+  overflow: hidden;
+}
+.homecard-inner img {
+  transition: transform 0.3s ease;
+}
+.homecard-inner img:hover {
+  transform: scale(1.2);
 }
 .homecard-inner p {
   color: #000;
@@ -605,14 +612,14 @@ a.btn.btn-primary.accept-cookies:hover {
 /*casinohotel-css-end*/
 /*bestroom-css-start*/
 .besthotel.banner {
-  background-image: url(../images/bestroom-banner.webp);
+  background-image: url(../images/bestroom-banner.jpg);
   position: relative;
 }
 
 /*bestroom-css-end*/
 /*facilities-css-start*/
 .facilitieshotel.banner {
-  background-image: url(../images/facilitiesbanner.jpeg);
+  background-image: url(../images/facilitiesbanner.jpg);
   position: relative;
 }
 
