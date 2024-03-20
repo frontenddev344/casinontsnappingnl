@@ -550,7 +550,6 @@ a.btn.btn-primary.accept-cookies {
     &-inner {
         p {
             color: $clr-black;
-
         }
 
     }
@@ -566,10 +565,6 @@ a.btn.btn-primary.accept-cookies {
         box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.07);
         background: $clr-white;
         padding: 20px;
-
-        &:hover {
-            background: $clr-creme;
-        }
     }
 
     &-content {
