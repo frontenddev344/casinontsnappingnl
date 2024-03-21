@@ -606,6 +606,20 @@ a.btn.btn-primary.accept-cookies:hover {
   margin-bottom: 25px;
 }
 
+.toptext.home {
+  padding: 50px 0 0 0;
+}
+.toptext.home p {
+  text-align: center;
+}
+
+.toptext.bottom {
+  padding: 0 0 50px 0;
+}
+.toptext.bottom p {
+  text-align: center;
+}
+
 /*casinohotel-css-end*/
 /*bestroom-css-start*/
 .besthotel.banner {
